@@ -1,0 +1,14 @@
+Understanding the grid
+
+A computer doesn't  understand a Tetris piece as a visual shape. We need to represent that shape using data.
+
+for a L piece: 
+
+0 0 0 0 0
+0 0 1 0 0
+0 0 1 0 0
+0 0 1 1 0
+0 0 0 0 0 
+
+0 means empty cell
+1 means a cell occupied by a block

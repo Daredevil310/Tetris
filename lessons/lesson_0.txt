@@ -1,0 +1,18 @@
+
+Tetris has a few fundamental components:
+
+1. Board: The rectangular area where blocks are placed.
+2. Pieces: Shapes made up of smaller square blocks.
+3. Movement: Pieces can move left, right and down.
+4. Rotation: Pieces can rotate into different orientations.
+5. Collision detection: The game checks whether a movement is allowed.
+6. Locking: When a piece cannot move further down, it becomes part of the board.
+7. Line clearing: Complete horizontal rows are removed.
+
+Game has the following loop:
+Create a new piece;
+Read player input;
+Check whether movement is possible
+Move the piece
+If it cannot move down, store it on the board
+Repeat until the game ends
